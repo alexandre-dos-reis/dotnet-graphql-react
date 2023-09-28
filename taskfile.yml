@@ -1,0 +1,10 @@
+version: "3"
+
+tasks:
+  react:
+    cmds:
+      - cd ./Clientapp && pnpm run dev
+
+  dotnet:
+    cmds:
+      - dotnet run watch
